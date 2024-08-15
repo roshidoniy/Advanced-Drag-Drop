@@ -1,10 +1,16 @@
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
 .drop-file {
   position: relative;
   width: 400px;
   height: 200px;
   border: 2px dashed var(--border-color);
   border-radius: 20px;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,6 +45,7 @@
 
 .drop-file-preview {
   margin-top: 30px;
+  width: 100%;
 }
 
 .drop-file-preview p {
@@ -47,6 +54,7 @@
 
 .drop-file-preview__title {
   margin-bottom: 20px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
